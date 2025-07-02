@@ -43,7 +43,8 @@
         </div>
     </div>
 
-    <div class="h-80 w-full">
+    <div class="h-80 w-full"> 
+        {{-- test komen --}}
         <h3 class="border-0 border-amber-300 text-xl font-bold tracking-tight text-gray-900">Collections</h3>
     </div>
 
