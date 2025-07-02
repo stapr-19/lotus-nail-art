@@ -1,19 +1,19 @@
 <footer class="bg-lotuslogobg p-4 md:p-8 lg:p-10">
-    <div class="border border-0 border-amber-500 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-3 justify-items-center">
+    <div class="border-0 border-amber-500 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-3 justify-items-center">
         <div class="grid grid-cols-1 gap-3 w-60 justify-items-center">
-            <div class="border border-0 border-amber-500 grid place-content-center">
+            <div class="border-0 border-amber-500 grid place-content-center">
                 <img src="/img/lotus-nail-art.png" class="w-20" alt="lotus-nail-art">
             </div>
-            <div class="border border-0 border-amber-500 grid place-content-center">
+            <div class="border-0 border-amber-500 grid place-content-center">
                 <h1 class="text-5xl font-bold text-lotuslinelogo font-waterfall">Lotus Nail Art</h1>
             </div>
         </div>
         
         <div class="w-60 grid grid-cols-1 justify-items-center mt-10 md:mt-0 lg:mt-0">
-            <div class="border border-0 border-amber-500 grid place-content-center">
-                <p class="text-lotuslinelogo text-lg font-medium">Follow On</p>
+            <div class="border-0 border-amber-500 grid place-content-center">
+                <p class="text-lotuslinelogo text-lg font-medium font-serif">Follow On</p>
             </div>
-            <div class="border border-0 border-amber-500 grid grid-cols-3 gap-3 place-content-center">
+            <div class="border-0 border-amber-500 grid grid-cols-3 gap-3 place-content-center">
                 
                 <a href="#">
                     <svg class="w-10 h-10 text-lotuslinelogo" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">

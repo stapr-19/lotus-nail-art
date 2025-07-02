@@ -1,6 +1,6 @@
 {{-- <div class="bg-lotuslogobg h-52 sticky top-0" style="opacity: .9"></div> --}}
 {{-- <nav class="h-52 sticky top-0" style="opacity: 1"> --}}
-<nav class="bg-lotuslogobg h-52 sticky top-0">
+<nav class="bg-lotuslogobg h-52">
     <div class="grid place-content-center">
         <div class=" grid place-content-center mt-2 md:w-xl lg:w-2xl ">
             <div class="grid place-content-center">
@@ -11,10 +11,10 @@
             </div>
         </div>
         <div class=" grid grid-cols-4 gap-2 place-content-center mt-3 ps-2 pe-2 md:w-xl lg:w-2xl ">
-            <a href="#" class="grid place-content-center rounded-md bg-lotuslinelogo px-3 py-2 text-sm font-medium text-lotuslogobg" aria-current="page">Home</a>
-            <a href="#" class="grid place-content-center rounded-md px-3 py-2 text-sm font-medium text-lotuslinelogo hover:bg-lotuslinelogo hover:text-lotuslogobg">Collections</a>
-            <a href="#" class="grid place-content-center rounded-md px-3 py-2 text-sm font-medium text-lotuslinelogo hover:bg-lotuslinelogo hover:text-lotuslogobg">About Us</a>
-            <a href="#" class="grid place-content-center rounded-md px-3 py-2 text-sm font-medium text-lotuslinelogo hover:bg-lotuslinelogo hover:text-lotuslogobg">Contact Us</a>
+            <a href="#" class="grid place-content-center rounded-md px-3 py-2 text-sm font-medium text-lotuslinelogo hover:underline font-serif" aria-current="page">Home</a>
+            <a href="#" class="grid place-content-center rounded-md px-3 py-2 text-sm font-medium text-lotuslinelogo hover:underline font-serif">Collections</a>
+            <a href="#" class="grid place-content-center rounded-md px-3 py-2 text-sm font-medium text-lotuslinelogo hover:underline font-serif">About Us</a>
+            <a href="#" class="grid place-content-center rounded-md px-3 py-2 text-sm font-medium text-lotuslinelogo hover:underline font-serif">Contact Us</a>
         </div>
     </div>
         
