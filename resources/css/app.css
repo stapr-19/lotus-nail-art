@@ -17,3 +17,23 @@
         "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol",
         "Noto Color Emoji";
 }
+
+.contentCollect {
+    animation: scroll-items 30s linear infinite;
+}
+
+/* group-hover dengan external class css ga berjalan, cara dibawah ini baru jalan */
+.group:hover .contentCollect {
+    animation-play-state: paused;
+    cursor: pointer;
+}
+
+@keyframes scroll-items {
+    0% {
+        transform: translateX(0%);
+    }
+
+    100% {
+        transform: translateX(-100%);
+    }
+}
