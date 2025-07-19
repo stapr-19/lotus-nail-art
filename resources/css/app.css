@@ -1,4 +1,5 @@
-@import 'tailwindcss';
+@import url("https://fonts.googleapis.com/css2?family=Waterfall&display=swap");
+@import "tailwindcss";
 
 @source '../../vendor/laravel/framework/src/Illuminate/Pagination/resources/views/*.blade.php';
 @source '../../storage/framework/views/*.php';
@@ -7,6 +8,32 @@
 @source "../views";
 
 @theme {
-    --font-sans: 'Instrument Sans', ui-sans-serif, system-ui, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji',
-        'Segoe UI Symbol', 'Noto Color Emoji';
+    --color-lotuslogobg: #732a26;
+    --color-lotuslinelogo: #d89994;
+
+    --font-waterfall: "Waterfall", sans-serif;
+
+    --font-sans: "Instrument Sans", ui-sans-serif, system-ui, sans-serif,
+        "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol",
+        "Noto Color Emoji";
+}
+
+.contentCollect {
+    animation: scroll-items 30s linear infinite;
+}
+
+/* group-hover dengan external class css ga berjalan, cara dibawah ini baru jalan */
+.group:hover .contentCollect {
+    animation-play-state: paused;
+    cursor: pointer;
+}
+
+@keyframes scroll-items {
+    0% {
+        transform: translateX(0%);
+    }
+
+    100% {
+        transform: translateX(-100%);
+    }
 }
