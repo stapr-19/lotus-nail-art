@@ -4,7 +4,7 @@
     <div class="grid place-content-center">
         <div class=" grid place-content-center mt-2 md:w-xl lg:w-2xl ">
             <div class="grid place-content-center">
-                <img src="/img/lotus-nail-art.png" class="w-20" alt="lotus-nail-art">
+                <img src="{{ asset("img/lotus-nail-art.png") }}" class="w-20" alt="lotus-nail-art">
             </div>
             <div class="grid place-content-center">
                 <h1 class="text-5xl font-bold text-lotuslinelogo font-waterfall">Lotus Nail Art</h1>
