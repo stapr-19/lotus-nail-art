@@ -13,7 +13,7 @@
         { "src": "/(.*)", "dest": "/api/index.php" }
     ],
 
-    "regions": ["sin1"],
+    "regions": ["hnd1"],
     "public": true,
     "buildCommand": "vite build",
     "outputDirectory": "public",
@@ -36,6 +36,6 @@
         "DB_PORT": "5432",
         "DB_DATABASE": "lotusnailart",
         "DB_USERNAME": "postgres",
-        "VERCEL_REGION_BUILD": "sin1"
+        "VERCEL_REGION_BUILD": "hnd1"
     }
 }
