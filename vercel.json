@@ -35,6 +35,7 @@
         "DB_HOST": "localhost",
         "DB_PORT": "5432",
         "DB_DATABASE": "lotusnailart",
-        "DB_USERNAME": "postgres"
+        "DB_USERNAME": "postgres",
+        "VERCEL_REGION_BUILD": "sin1"
     }
 }
