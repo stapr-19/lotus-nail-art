@@ -1,0 +1,1 @@
+//package lock json dan package json harusnya depedenxy hanya postcss dan autoprefix, dan di dev depedency 2 itu tidak ada
