@@ -13,7 +13,6 @@
         { "src": "/(.*)", "dest": "/api/index.php" }
     ],
     "region": {
-        "$schema": "https://openapi.vercel.sh/vercel.json",
         "regions": ["sin1"]
     },
     "public": true,
