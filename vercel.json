@@ -12,9 +12,8 @@
         { "src": "/(.*)\\.(.+)$", "dest": "/public/$1.$2" },
         { "src": "/(.*)", "dest": "/api/index.php" }
     ],
-    "region": {
-        "regions": ["sin1"]
-    },
+
+    "regions": ["sin1"],
     "public": true,
     "buildCommand": "vite build",
     "outputDirectory": "public",
